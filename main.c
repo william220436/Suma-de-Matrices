@@ -33,9 +33,20 @@ int main(){
 		printf("\n");
 	}	
 	printf("\n");
-	
-	
-	
+	printf("------------Matriz C-----------\n");
+	for (int i=0;i<3;i++){
+		for(int j=0;j<3;j++){
+			C[i][j]=A[i][j]+B[i][j];
+		}
+	}	
+
+	for (int i=0;i<3;i++){
+		for(int j=0;j<3;j++){
+			printf("%i ", C[i][j]);
+		}
+		printf("\n");
+	}	
+	printf("\n");
 	
 	return 0;
 }
